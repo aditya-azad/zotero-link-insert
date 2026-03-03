@@ -2,6 +2,8 @@
 
 A Chrome extension that lets you quickly insert PDF links from your local Zotero library into any text box on the web using `@[` syntax.
 
+![Demo](assets/demo.gif)
+
 ## Setup
 
 ### 1. Enable Zotero's Local API
