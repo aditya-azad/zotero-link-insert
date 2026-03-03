@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 300px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #1e1e2e;
+      color: #cdd6f4;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 16px;
+      margin-bottom: 16px;
+      color: #cba6f7;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      background: #cba6f7;
+      color: #1e1e2e;
+      margin-bottom: 8px;
+    }
+    button:hover { background: #b491e0; }
+    #status {
+      font-size: 12px;
+      margin-top: 4px;
+      min-height: 16px;
+    }
+    .success { color: #a6e3a1; }
+    .error { color: #f38ba8; }
+    .info { color: #a6adc8; }
+    .help {
+      font-size: 11px;
+      color: #6c7086;
+      margin-top: 12px;
+      line-height: 1.6;
+      border-top: 1px solid #313244;
+      padding-top: 12px;
+    }
+    .help code {
+      background: #313244;
+      padding: 1px 4px;
+      border-radius: 3px;
+      color: #f9e2af;
+    }
+  </style>
+</head>
+<body>
+  <h2>Zotero Link Insert</h2>
+
+  <button id="refresh">Refresh Library Cache</button>
+  <div id="status"></div>
+
+  <div class="help">
+    <strong>Requires:</strong> Zotero running locally on this computer.<br><br>
+    <strong>Usage:</strong> Type <code>@[</code> in any text box to search your library.
+    Use <strong>↑↓</strong> to navigate, <strong>Enter/Tab</strong> to insert the PDF link, <strong>Esc</strong> to close.
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

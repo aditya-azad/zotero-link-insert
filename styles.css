@@ -1,0 +1,53 @@
+.zotero-link-dropdown {
+  position: absolute;
+  z-index: 2147483647;
+  background: #1e1e2e;
+  border: 1px solid #45475a;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  max-height: 320px;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  padding: 4px;
+}
+
+.zotero-link-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.1s;
+}
+
+.zotero-link-item:hover,
+.zotero-link-item.zotero-link-selected {
+  background: #313244;
+}
+
+.zotero-link-title {
+  color: #cdd6f4;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.zotero-link-meta {
+  color: #a6adc8;
+  font-size: 11px;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.zotero-link-empty {
+  color: #6c7086;
+  font-style: italic;
+  cursor: default;
+}
+
+.zotero-link-empty:hover {
+  background: transparent;
+}
