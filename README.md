@@ -1,6 +1,6 @@
 # Zotero Link Insert
 
-A Chrome extension that lets you quickly insert PDF links from your local Zotero library into any text box on the web using `@[` syntax.
+A Chrome extension that lets you quickly insert PDF links from your local Zotero library into any text box on the web using `[@` syntax.
 
 ![Demo](assets/demo.gif)
 
@@ -30,7 +30,7 @@ Click the extension icon — it should show **"Connected — X papers loaded"**.
 
 ## Usage
 
-Type **`@[`** in any text box on any webpage to trigger the search dropdown.
+Type **`[@`** in any text box on any webpage to trigger the search dropdown.
 
 - Continue typing to search by **title**, **author**, or **year**
 - Use **↑ / ↓** arrow keys to navigate results

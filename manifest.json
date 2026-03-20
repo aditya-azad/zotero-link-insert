@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Zotero Link Insert",
   "version": "1.0.0",
-  "description": "Insert PDF links from your local Zotero library into any text box using @[ syntax",
+  "description": "Insert PDF links from your local Zotero library into any text box using [@ syntax",
   "permissions": ["storage"],
   "host_permissions": ["http://localhost:23119/*"],
   "background": {

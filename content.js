@@ -1,5 +1,5 @@
 (() => {
-  const TRIGGER = "@[";
+  const TRIGGER = "[@";
   let dropdown = null;
   let activeInput = null;
   let selectedIndex = 0;
